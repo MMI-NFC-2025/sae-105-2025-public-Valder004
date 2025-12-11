@@ -4,3 +4,10 @@
     background-color: #ffc67d;
     display: flex;
 }
+.header__icon{
+   width: 112px;
+    height: 64px;
+    aspect-ratio: 7/4;
+    margin-left: 20px;
+    margin-top: 20px;
+}
