@@ -7,8 +7,17 @@
 </head>
 <body>
     <header class="header">
-        <a href="index.html"><img class="header-icon" src="/assets/svg/vector2.svg" alt="Icone header"></a>
-        <img class="menu-icon" src="/assets/svg/menu-open.svg" alt="menu-open">
+        <a href="index.html"><img class="header__icon" src="/assets/svg/vector2.svg" alt="Icone header"></a>
+        <img class="header__menu" src="/assets/svg/menu-open.svg" alt="menu-open">
+        <nav>
+            <ul class="nav__liste">
+                <li class="nav__item"><a href="index.html" class="nav__link">Page d'accueil</a></li>
+                <li class="nav__item"><a href="festival.html" class="nav__link">Le festival</a></li>
+                <li class="nav__item"><a href="Programmation.html" class="nav__link">Programmation</a></li>
+                <li class="nav__item"><a href="scène.html" class="nav__link">Les scènes</a></li>
+                <li class="nav__item"><a href="infos_pratique.html" class="nav__link">Infos Pratiques</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="intro-index">
@@ -19,58 +28,58 @@
             <h1 class="Texte-important-index"> À Montbéliard</h1>
         </section>
         <section class="Timer">    
-            <h1 class="Chrono">190 : 19 : 35</h1>
-                <h2 class="description-chrono-1"> Days </h2>
-                <h2 class="description-chrono-2"> Hours </h2>
-                <h2 class="description-chrono-3"> Minutes </h2>
+            <h1 class="Timer__time">190 : 19 : 35</h1>
+                <h2 class="Timer__description1"> Days </h2>
+                <h2 class="Timer__description2"> Hours </h2>
+                <h2 class="Timer__description3"> Minutes </h2>
+        </section>
+        <div class="billetteriet">
                 <a href="">
                     <button class="btn-billet-index">
                         Billetterie
                         <img src="/assets/svg/image78.svg" alt="bouton billetterie">
                     </button>
-                </a>    
-               
-                
-        </section>
+                </a>   
+            </div>  
         <section class="Programmation-index">        
-            <div class="programmation-intro">
-                <h2 class="savoir-plus-index">Vous voulez en savoir plus ?</h2>
-                <img src="assets/svg/image66.svg" alt="Flèche bas" class="fleche-bas-index">
-                <h2 class="h2-programmation-index">Programmation</h2>
+            <div class="Programmation-index-titre">
+                <h2 class="titre__savoir-plus">Vous voulez en savoir plus ?</h2>
+                <img src="assets/svg/image66.svg" alt="Flèche bas" class="titre__fleche-bas">
+                <h2 class="titre__programmation">Programmation</h2>
             </div>
-            <div class="programmation-artistes">
-                <div class="artiste-card">
-                    <img src="/assets/svg/image76.avif" alt="La banda jul" class="image-bandajul">  
-                    <p class="description-programme-index">La banda jul</p>
-                    <p class="description-programme-index">27/06</p>
+            <div class="Programmation-index__artistes">
+                <div class="artiste__card">
+                    <img src="/assets/svg/image76.avif" alt="La banda jul" class="card__bandajul">  
+                    <p class="card__description-programme">La banda jul</p>
+                    <p class="card__description-programme">27/06</p>
                 </div>
-                <div class="artiste-card">
-                    <img src="/assets/svg/rectangle12.avif" alt="Le ptit Mish-Mash" class="image-MishMash">  
-                    <p class="description-programme-index">Le petit Mish-Mash</p>
-                    <p class="description-programme-index">28/06</p>
+                <div class="artiste__card">
+                    <img src="/assets/svg/rectangle12.avif" alt="Le ptit Mish-Mash" class="card__image-MishMash">  
+                    <p class="card__description-programme">Le petit Mish-Mash</p>
+                    <p class="card__description-programme">28/06</p>
                 </div>
-                <img src="/assets/svg/vector4.svg" alt="trompette" class="trompette">
+                <img src="/assets/svg/vector4.svg" alt="trompette" class="programmation-index__trompette">
             </div>
        </section>
        <section class="partenaire">
-            <h2 class="partenaire-index">Nos Partenaires</h2>
+            <h2 class="partenaire__titre">Nos Partenaires</h2>
             <div class="partenaire__logos">
-                <img src="/assets/svg/image67.avif" alt="Logos partenaires" class="logos-partenaires-index">
-                <img src="/assets/svg/image68.avif" alt="Logos partenaires" class="logos-partenaires-index">
-                <img src="/assets/svg/image69.avif" alt="Logos partenaires" class="logos-partenaires-index">
+                <img src="/assets/svg/image67.avif" alt="Logos partenaires" class="logos__partenaires-index">
+                <img src="/assets/svg/image68.avif" alt="Logos partenaires" class="logos__partenaires-index">
+                <img src="/assets/svg/image69.avif" alt="Logos partenaires" class="logos__partenaires-index">
       </section>
     </main>
       <Footer class="Footer">
-        <ul class="liste-footer">
-            <li><a href=""></a>À propos</li>
-            <li><a href=""></a>Contact</li>
-            <li><a href=""></a>Infos Pratiques</li>
+        <ul class="Footer__liste">
+            <li><a href="festival.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="infos_pratique.html">Infos Pratiques</a></li>
         </ul>
-        <a href="" class="réseaux"><img src="/assets/svg/instagram.svg" alt="instagram"></a>
-        <a href="" class="réseaux"><img src="/assets/svg/facebook.svg" alt="facebook"></a>
-        <a href="" class="réseaux"><img src="/assets/svg/twitter.svg" alt="twitter"></a>
-        <a href="" class="réseaux"><img src="/assets/svg/youtube.svg" alt="youtube"></a>
-        <img src="/assets/svg/vector1.svg" alt="Icone footer" class="icone-footer">
+        <a href="" class="Footer__réseaux"><img src="/assets/svg/instagram.svg" alt="instagram"></a>
+        <a href="" class="Footer__réseaux"><img src="/assets/svg/facebook.svg" alt="facebook"></a>
+        <a href="" class="Footer__réseaux"><img src="/assets/svg/twitter.svg" alt="twitter"></a>
+        <a href="" class="Footer__réseaux"><img src="/assets/svg/youtube.svg" alt="youtube"></a>
+        <img src="/assets/svg/vector1.svg" alt="Icone footer" class="Footer__icone">
       </Footer>
     
         
