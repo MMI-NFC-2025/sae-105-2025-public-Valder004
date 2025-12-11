@@ -1,0 +1,33 @@
+/* color */
+:root {
+  /* Mode 1 */
+  /* color */
+  --fond: #ffffff;
+  --fond-secondaire: #ffc67d;
+  --texte: #884d00;
+  --texte-fond-secondaire: #000000;
+  --titre: #ff9500;
+}
+/* typo */
+:root {
+  /* Mode 1 */
+  /* number */
+  --textes: 1.25rem;
+  --texte-important: 1.875rem;
+  --sous-titre: 2.8125rem;
+  --titre: 3.75rem;
+}
+/* space */
+:root {
+  /* Mode 1 */
+  /* number */
+  --marge-nom-contact: 2.3125rem;
+  --marge-footer: 2.5625rem;
+  --marge-menu: 2.6875rem;
+  --marge-insta: 5.1875rem;
+  --espace-texte-programme: 8rem;
+  --marge-facebook: 9.8125rem;
+  --marge-prénom-contact: 14.25rem;
+  --marge-twitter: 14.4375rem;
+  --marge-youtube: 19.0625rem;
+}
