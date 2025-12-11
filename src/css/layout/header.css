@@ -1,25 +1,29 @@
 .header{
-    position: absolute;
-    left: 0;
-    padding: var(--space-2xl) var(--space-4xl);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 430px;
     height: 118px;
     background-color: #ffc67d;
     display: flex;
+    position: absolute;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 .header__icon{
-   width: 112px;
+    width: 112px;
     height: 64px;
     aspect-ratio: 7/4;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 298px;
+    display: block;
+    position: relative;
+    z-index: 20;
 }
 .header__menu{
-    margin-left: auto;
+    display: block;
+    position: relative;
+    z-index: 20;
+    margin-left: 29px;
     margin-top: 23px;
     margin-right: 27px;
     width: 46px;
