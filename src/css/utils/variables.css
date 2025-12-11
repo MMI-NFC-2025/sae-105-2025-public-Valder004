@@ -31,3 +31,26 @@
   --marge-twitter: 14.4375rem;
   --marge-youtube: 19.0625rem;
 }
+
+/* Compatibilité : exposer des variables utiles attendues par `main.css` */
+:root {
+  /* Typographie */
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+  /* Cartographie des tailles utilisées dans main.css */
+  --text-base: var(--textes);
+  --text-5xl: var(--titre);
+  --text-2xl: var(--sous-titre);
+
+  /* Couleurs : rapprocher les noms utilisés par main.css */
+  --gray-100: var(--fond);
+  --gray-500: var(--texte);
+  --gray-300: #f3efe8; /* léger neutre pour séparateurs */
+  --gray-900: #2b1b00; /* teinte foncée approchant le texte principal */
+  --dark: var(--texte);
+
+  /* Accent / tonique */
+  --tonique-light: var(--fond-secondaire);
+
+  /* Espacements utiles */
+  --space-2xl: var(--espace-texte-programme);
+}

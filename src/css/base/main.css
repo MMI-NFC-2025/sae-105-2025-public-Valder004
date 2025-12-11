@@ -1,3 +1,4 @@
+/* Change le modèle de boite par défaut */
 * {
 	box-sizing: border-box;
 }
@@ -9,16 +10,17 @@ html {
 
 /* Sélection de texte personnalisée */
 ::selection {
-  background-color: var(--toniqueLight);
+  background-color: var(--tonique-light);
 }
 body {
-	font-family: var(--font-body);
+	font-family: var(--font-sans);
 	font-size: var(--text-base);
 	line-height: 1.4;
 	letter-spacing: -0.03rem;
 	background-color: var(--gray-100);
 	color: var(--gray-500);
 }
+
 h1,
 h2 {
   font-weight: 600;
@@ -66,6 +68,7 @@ textarea {
   padding: 0;
   cursor: pointer;
 }
+
 /* --- CLASSES UTILITAIRES --- */
 
 /* Pour enlever l'apparence par défaut des listes */
