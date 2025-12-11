@@ -1,7 +1,17 @@
 .menu{
-    display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 12;
+  color: var(--light);
+  display: flex;
+  gap: var(--space-5xl);
+  flex-direction: column;
+  padding: var(--space-4xl);
 }
-
-.header__menu-close{
-    display: none;
+.menu::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  background-color: var(--gray-900);
 }

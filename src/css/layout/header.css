@@ -1,4 +1,10 @@
 .header{
+    position: absolute;
+    left: 0;
+    padding: var(--space-2xl) var(--space-4xl);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 430px;
     height: 118px;
     background-color: #ffc67d;
@@ -10,4 +16,13 @@
     aspect-ratio: 7/4;
     margin-left: 20px;
     margin-top: 20px;
+    margin-right: 298px;
+}
+.header__menu{
+    margin-left: auto;
+    margin-top: 23px;
+    margin-right: 27px;
+    width: 46px;
+    height: 31px;
+    cursor: pointer;
 }
