@@ -1,0 +1,17 @@
+.header{
+    width: 430px;
+    height: 118px;
+    background-color: #ffc67d;
+    display: flex;
+}
+.header__icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 29px;
+    margin-top: 22px;
+}
+.header__nav{;
+    margin-left: 80px;
+    margin-top: 40px;
+    gap: 30px;
+}
