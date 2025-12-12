@@ -19,7 +19,7 @@
     <header class="header">
         <a href="index.html"><img class="header__icon" src="/assets/svg/vector2.svg" alt="header__icone"></a>
         <button>
-            <span><img class="header__menu" src="/assets/svg/menu-open.svg" alt="menu-open"> </span>        </button>
+            <span><img class="header__menu" src="/assets/svg/menu-open.svg" alt="menu-open"> </span> </button>
         <nav class="menu">
             <ul class="nav__liste">
                 <li class="nav__item"><a href="index.html" class="nav__link">Page d'accueil</a></li>
@@ -40,10 +40,26 @@
             <H1 class="hero__intro">Contact</H1>
         </section>
         <section class="formulaire">
-            <h3 class="formulaire__nom">Nom</h3>
-            <h3 class="formulaire__prenom">Prénom</h3>
-            <h3 class="formulaire__email">Email</h3>
-            <h3 class="formulaire__message">Message</h3>
+            <form action="contact-form">
+                <div class="infos-inputs">
+                    <div class="name">
+                        <label for="name">Nom : </label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="prename">
+                        <label for="prename">Prenom : </label>
+                        <input type="text" id="prename">
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email">Email : </label>
+                    <input type="text" id="email">
+                </div>
+                <div class="message">
+                    <label for="message">Message : </label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+            </form>
         </section>
         <div class="coordonnées">
             <H2 class="coordonnées__titre">Nos coordonnées</H2>
