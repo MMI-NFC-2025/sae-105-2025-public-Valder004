@@ -1,0 +1,25 @@
+.hero {
+    position: relative;
+    margin-top: 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+
+    
+
+
+.hero__intro {
+  font-size: var(--);
+  line-height: 1.3;
+}
+
+.hero__title {
+  color: var(--light);
+}

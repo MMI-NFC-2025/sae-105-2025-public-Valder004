@@ -16,5 +16,7 @@
 /* 5. Components - Spécificité la plus forte */
 @import "components/button.css";   
 @import "components/menu.css";
+@import "components/hero.css";
+
 
 @import "base/media.css"

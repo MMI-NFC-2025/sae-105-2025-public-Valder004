@@ -1,12 +1,16 @@
-.header{
-    width: 430px;
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* important */
     height: 118px;
     background-color: #ffc67d;
     display: flex;
-    position: fixed;
-    left: 0;
     align-items: center;
     justify-content: space-between;
+    padding: 0 20px; /* remplace toutes les grosses marges */
+    z-index: 20;
+
     
 }
 .header__icon{
@@ -15,7 +19,6 @@
     aspect-ratio: 7/4;
     margin-left: 20px;
     margin-top: 20px;
-    margin-right: 298px;
     display: block;
     position: relative;
     z-index: 20;
