@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artiste</title>
     <link rel="stylesheet" href="/src/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/src/css/style.css" />
-<script type="module" src="/src/js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
 </head>
 
-    
+
 <body>
     <header class="header">
-            <a href="index.html"><img class="header__icon" src="/assets/svg/vector2.svg" alt="header__icone"></a>
-             <button>
-    <span><img class="header__menu" src="/assets/svg/menu-open.svg" alt="menu-open"> </span>
-  </button>
+        <a href="index.html"><img class="header__icon" src="/assets/svg/vector2.svg" alt="header__icone"></a>
+        <button>
+            <span><img class="header__menu" src="/assets/svg/menu-open.svg" alt="menu-open"> </span>
+        </button>
         <nav class="menu">
             <ul class="nav__liste">
                 <li class="nav__item"><a href="index.html" class="nav__link">Page d'accueil</a></li>
-                  <img src="/assets/svg/line4.svg" alt="ligne">
+                <img src="/assets/svg/line4.svg" alt="ligne">
                 <li class="nav__item"><a href="festival.html" class="nav__link">Le festival</a></li>
-                  <img src="/assets/svg/line4.svg" alt="ligne">
+                <img src="/assets/svg/line4.svg" alt="ligne">
                 <li class="nav__item"><a href="Programmation.html" class="nav__link">Programmation</a></li>
-                  <img src="/assets/svg/line4.svg" alt="ligne">
+                <img src="/assets/svg/line4.svg" alt="ligne">
                 <li class="nav__item"><a href="scène.html" class="nav__link">Les scènes</a></li>
-                  <img src="/assets/svg/line4.svg" alt="ligne">
+                <img src="/assets/svg/line4.svg" alt="ligne">
                 <li class="nav__item"><a href="infos_pratique.html" class="nav__link">Infos Pratiques</a></li>
             </ul>
         </nav>
     </header>
-        <main>
-            <div class="hero">
-                <img src="/assets/svg/rectangle16.avif" alt="Fanfare" class="hero__intro">       
-                <h1 class="hero__intro">Thomas Dutronc</h1>
+    <main>
+        <div class="hero">
+            <img src="/assets/svg/rectangle16.avif" alt="Fanfare" class="hero__intro">
+            <h1 class="hero__intro">Thomas Dutronc</h1>
+        </div>
+        <section class="intro-artiste">
+            <div class="intro-artiste__info">
+                <h2 class="info__représentation">Représentation</h2>
+                <h2 class="info__scène">Scène 1</h2>
+                <h2 class="info__date">22h00</h2>
             </div>
-            <section class="intro-artiste">
-                <div class="intro-artiste__info">
-                    <h2 class="info__représentation">Représentation</h2>
-                    <h2 class="info__scène">Scène 1</h2>
-                    <h2 class="info__date">22h00</h2>
+            <div class="intro-artiste__description-bloc">
+                <h2 class="description-bloc__description-titre">Description</h2>
+                <h3 class="description-bloc__description">Thomas Dutronc, guitariste virtuose et chanteur au charme
+                    solaire, apporte à La Fanfa'Comtoise son univers swing manouche mêlant jazz élégant et énergie
+                    festive. Son spectacle chaleureux et accessible promet un moment musical raffiné et convivial pour
+                    toute la famille.</h3>
+            </div>
+        </section>
+        <section class="Galerie">
+            <h2 class="Galerie__titre">Galerie</h2>
+            <div class="carousel" aria-labelledby="carousel-heading">
+                <h2 id="carousel-heading" class="carousel__heading sr-only">
+                    Carousel d'images musicales
+                </h2>
+                <div class="carousel__container" role="region" aria-live="polite">
+                    <div class="carousel__item">
+                        <img src="/assets/svg/rectangle21.avif" alt="" />
+                    </div>
+                    <div class="carousel__item">
+                        <img src="/assets/svg/rectangle22.avif" alt="Image musique 2" />
+                    </div>
+                    <div class="carousel__item">
+                        <img src="/assets/svg/rectangle23.avif" alt="Image musique 3" />
+                    </div>
+                    <div class="carousel__item">
+                        <img src="/assets/svg/image74.avif" alt="Image musique 4" />
+                    </div>
                 </div>
-                <div class="intro-artiste__description-bloc">
-                    <h2 class="description-bloc__description-titre">Description</h2>
-                    <h3 class="description-bloc__description">Thomas Dutronc, guitariste virtuose et chanteur au charme solaire, apporte à La Fanfa'Comtoise son univers swing manouche mêlant jazz élégant et énergie festive. Son spectacle chaleureux et accessible promet un moment musical raffiné et convivial pour toute la famille.</h3>
+                <div class="carousel__controls">
+                    <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                        <img src="/assets/svg/image78.svg" alt="fleche gauche" />
+                    </button>
+                    <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                        <img src="/assets/icones/icon_arrowcarrousel.svg" alt="fleche droite" />
+                    </button>
                 </div>
-            </section>
-            <section class="Galerie">
-                <h2 class="Galerie__titre">Galerie</h2>
-               <div class="Galerie__carousel">
+            </div>
 
-    <button  alt="flèche gauche" class="flèche-carouselG">
-    <img src="assets/svg/image78.svg" alt="flèche">
-    </button>
-
-    <div class="carousel-track">
-        <img src="/assets/svg/image74.avif" alt="Thomas dutronc en concert" class="carousel__carousel" loading="lazy">
-        <img src="/assets/svg/rectangle21.avif" alt="Thomas dutronc en concert" class="carousel__carousel" loading="lazy">
-        <img src="/assets/svg/rectangle22.avif" alt="thomas dutronc en concert" class="carousel__carousel" loading="lazy">
-        <img src="/assets/svg/rectangle23.avif" alt="Thomas Dutronc" class="carousel__carousel" loading="lazy">
-    </div>
-
-    <button  alt="flèche droite" class="flèche-carouselD">
-<img src="assets/svg/image78.svg">
-    </button>
-</div>
-
-            </section>
-        </main>
-         <footer class="Footer">
+        </section>
+    </main>
+    <footer class="Footer">
         <ul class="Footer__liste">
             <li><a href="festival.html">À propos</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -86,4 +102,5 @@
         <img src="/assets/svg/vector1.svg" alt="Icone footer" class="Footer__icone">
     </footer>
 </body>
+
 </html>

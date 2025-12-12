@@ -15,9 +15,9 @@ document.querySelectorAll('.nav__link').forEach(link => {
 });
 
 
-const carousel = document.querySelector(".Galerie__carousel");
-const prevButton = document.querySelector("flèche-carouselG");
-const nextButton = document.querySelector("flèche-carouselD");
+const carousel = document.querySelector(".carousel__container");
+const prevButton = document.querySelector(".carousel__button--prev");
+const nextButton = document.querySelector(".carousel__button--next");
 
 // Largeur de défilement d’un item
 if (carousel) {
