@@ -13,3 +13,21 @@ document.querySelectorAll('.nav__link').forEach(link => {
     menu.classList.remove('menu--open');
   });
 });
+
+
+const carousel = document.querySelector(".Galerie__carousel");
+const prevButton = document.querySelector("flèche-carouselG");
+const nextButton = document.querySelector("flèche-carouselD");
+
+// Largeur de défilement d’un item
+if (carousel) {
+  // Scroll au clic sur le bouton précédent
+  prevButton.addEventListener("click", () => {
+    carousel.scrollBy({ left: -260, behavior: "smooth" });
+  });
+
+  // Scroll au clic sur le bouton suivant
+nextButton.addEventListener("click", () => {
+    carousel.scrollBy({ left: +260, behavior: "smooth" });
+});
+}
