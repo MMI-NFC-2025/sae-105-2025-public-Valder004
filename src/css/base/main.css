@@ -14,7 +14,7 @@ body {
 	line-height: 1.4;
 	letter-spacing: -0.03rem;
 	background-color: var(--fond);
-	color: var(--fond);
+	color: var(--textes);
   position: relative;
 }
 
@@ -108,4 +108,64 @@ textarea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-2xl);
+}
+
+.Timer__time{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.titre__savoir-plus {
+  margin-left: 16px;
+  color: #FF9500;
+}
+
+.titre__fleche-bas{
+    display: flex;
+    margin: auto;
+}
+
+.titre__programmation{
+  color: #FF9500;
+  text-align: center;
+}
+
+.card__bandajul{
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+.card__description-programme{
+
+}
+
+.card__image-MishMash{
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+
+.programmation-index__trompette{
+  display: flex;
+  margin: auto;
+}
+
+.partenaire__titre{
+  text-align: center;
+  color: #FF9500;
+}
+
+.logos__partenaires-index{
+  width: 325px;
+  height: 165px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }

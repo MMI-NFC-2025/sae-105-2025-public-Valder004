@@ -1,0 +1,41 @@
+/* CARD STAT */
+
+.card-stat {
+  margin-top: var(--space-5xl);
+}
+
+.card-stat > * {
+  margin: 0;
+}
+
+.card-stat__value {
+  font-size: var(--text-7xl);
+  font-weight: 600;
+  line-height: 0.9;
+  margin-bottom: var(--space-xl);
+}
+
+.card-stat__label {
+  font-size: var(--text-2xl);
+  font-weight: 600;
+}
+
+.card-stat__sub {
+  font-size: var(--text-sm);
+  color: var(--gray-500);
+}
+
+.card-stat__thumbnails {
+  display: flex;
+  align-items: center;
+  margin-top: var(--space-xl);
+}
+.card-stat__thumbnails::after {
+  content: "";
+  height: var(--space-sm);
+  width: 100%;
+  background-color: var(--gray-200);
+}
+.card-stat__thumbnails img:not(:first-child) {
+  margin-left: -1rem;
+}
