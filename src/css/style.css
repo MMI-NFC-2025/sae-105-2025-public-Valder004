@@ -11,12 +11,14 @@
 
 /* 4. Layout - Structure de page */
 @import "layout/header.css"; 
-@import "layout/footer.css";      
+@import "layout/footer.css";
+@import "layout/section.css"      
 
 /* 5. Components - Spécificité la plus forte */
 @import "components/button.css";   
 @import "components/menu.css";
 @import "components/hero.css";
+@import "components/card.css"
 
 
 @import "base/media.css"
