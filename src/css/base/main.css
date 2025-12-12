@@ -1,6 +1,6 @@
 /* Change le modèle de boite par défaut */
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Scroll fluide pour les ancres */
@@ -9,12 +9,12 @@ html {
 }
 
 body {
-	font-family: var(--font-sans);
-	font-size: var(--textes);
-	line-height: 1.4;
-	letter-spacing: -0.03rem;
-	background-color: var(--fond);
-	color: var(--textes);
+  font-family: var(--font-sans);
+  font-size: var(--textes);
+  line-height: 1.4;
+  letter-spacing: -0.03rem;
+  background-color: var(--fond);
+  color: var(--textes);
   position: relative;
 }
 
@@ -78,12 +78,15 @@ textarea {
 /* Pour rendre invisible mais laisser accessible */
 .u-sr-only {
   position: absolute !important;
-  inline-size: 1px; /* width logique */
-  block-size: 1px; /* height logique */
+  inline-size: 1px;
+  /* width logique */
+  block-size: 1px;
+  /* height logique */
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  white-space: nowrap; /* évite le retour à la ligne */
+  white-space: nowrap;
+  /* évite le retour à la ligne */
   border: 0;
 
   /* Masquage moderne + fallback */
@@ -110,7 +113,7 @@ textarea {
   gap: var(--space-2xl);
 }
 
-.Timer__time{
+.Timer__time {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -120,17 +123,17 @@ textarea {
   color: #FF9500;
 }
 
-.titre__fleche-bas{
-    display: flex;
-    margin: auto;
+.titre__fleche-bas {
+  display: flex;
+  margin: auto;
 }
 
-.titre__programmation{
+.titre__programmation {
   color: #FF9500;
   text-align: center;
 }
 
-.card__bandajul{
+.card__bandajul {
   display: flex;
   margin: auto;
   border: #ffffff;
@@ -138,7 +141,7 @@ textarea {
   height: 146px;
 }
 
-.artiste__card-align{
+.artiste__card-align {
   display: flex;
   align-items: center;
   background-color: var(--fond-secondaire);
@@ -160,7 +163,7 @@ textarea {
   margin-right: 13px;
 }
 
-.card__image-MishMash{
+.card__image-MishMash {
   display: flex;
   margin: auto;
   border: #ffffff;
@@ -169,21 +172,141 @@ textarea {
 }
 
 
-.programmation-index__trompette{
+.programmation-index__trompette {
   display: flex;
   margin: auto;
 }
 
-.partenaire__titre{
+.partenaire__titre {
   text-align: center;
   color: #FF9500;
 }
 
-.logos__partenaires-index{
+.logos__partenaires-index {
   width: 325px;
   height: 165px;
   display: flex;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.texte__description {
+  text-align: center;
+}
+
+.texte__description-highlight {
+  color: #FF9500;
+}
+
+.texte__description-team {
+  margin-left: 25px;
+  color: #884d00;
+}
+
+.contenu__image {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 387px;
+  height: 274px;
+}
+
+.contenu__titre {
+  text-align: center;
+  color: #FF9500;
+  margin-left: 25px;
+}
+
+.contenu__description {
+  color: #884d00;
+  margin-left: 25px;
+  font-size: 45px;
+}
+
+.equipe_trompette {
+  display: flex;
+  margin: auto;
+}
+
+.valeurs__titre {
+  color: #FF9500;
+  text-align: center;
+}
+
+.valeurs__description {
+  color: #884d00;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.thématiques__titre {
+  color: #FF9500;
+  text-align: center;
+}
+
+.thématiques__description {
+  color: #884d00;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.jour__jour1 {
+  color: #FF9500;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.jour__jour1-scène1 {
+  text-align: center;
+  margin-top: 0%;
+}
+
+.artiste__image-bandajul {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+.artiste__image-HK {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+
+.artiste__image-MishMash {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+.artiste__image-Electro {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+.artiste__image-cuivres {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
+}
+
+.artiste__image-Jazz {
+  display: flex;
+  margin: auto;
+  border: #ffffff;
+  width: 321px;
+  height: 146px;
 }
