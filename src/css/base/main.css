@@ -138,8 +138,26 @@ textarea {
   height: 146px;
 }
 
-.card__description-programme{
+.artiste__card-align{
+  display: flex;
+  align-items: center;
+  background-color: var(--fond-secondaire);
+  padding: 0;
+  padding-left: 12px;
+  padding-right: 13px;
+  width: 248px;
+  height: 59px;
+  margin-left: 128px;
+  margin-right: 49px;
+  transform: translateY(-40px);
+}
 
+.card__description-programme1 {
+  margin-right: 13px;
+}
+
+.card__description-programme3 {
+  margin-right: 13px;
 }
 
 .card__image-MishMash{
