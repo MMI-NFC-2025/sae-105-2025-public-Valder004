@@ -1,0 +1,20 @@
+.Timer,
+.Programmation-index,
+.partenaire,
+.equipe,
+.valeurs,
+.Programmation,
+.intro-artiste,
+.Galerie,
+.intro-scène,
+.détails-scène {
+    width: 100%;
+    max-width: 430px; 
+    margin: 0 auto;   
+    padding: 40px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 30px;  
+}
+
