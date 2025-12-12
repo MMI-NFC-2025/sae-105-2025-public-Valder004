@@ -16,10 +16,18 @@
 
 
 .hero__intro {
-  font-size: var(--);
-  line-height: 1.3;
+    font-size: var(--titre);
+    line-height: 1.3;
+    color: var(--titre-texte);
+    text-align: center;
 }
 
-.hero__title {
-  color: var(--light);
+.hero__description {
+    font-size: var(--texte);
+    line-height: 1.4;
+    color: var(--texte);
+    text-align: center;
+    width: 372px;
+    margin-left: 28px;
 }
+
