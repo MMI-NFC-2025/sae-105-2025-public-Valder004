@@ -1,0 +1,50 @@
+.Footer {
+    background-color: var(--fond-secondaire);
+    color: var(--texte-fond-secondaire);
+    padding: var(--marge-menu);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+
+
+}
+
+.Footer__liste {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: var(--texte-important);
+    font-weight: 700;
+    margin-left: 41px;
+}
+
+
+.Footer__liste a {
+    color: var(--texte-fond-secondaire);
+    text-decoration: none;
+}
+
+.Footer__liste a:hover {
+    text-decoration: underline;
+}
+
+.Footer__réseaux {
+    display: flex;
+    gap: 20px;
+    width: 39px;
+    
+}
+
+.Footer__réseaux img {
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    align-items: center;
+}
+.Footer__icone {
+    width: 150px;
+    height: auto;
+    display: block;
+}

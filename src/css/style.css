@@ -10,7 +10,8 @@
 @import "base/main.css";           
 
 /* 4. Layout - Structure de page */
-@import "layout/header.css";       
+@import "layout/header.css"; 
+@import "layout/footer.css";      
 
 /* 5. Components - Spécificité la plus forte */
 @import "components/button.css";   
