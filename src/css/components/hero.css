@@ -23,13 +23,14 @@
 }
 
 .hero__description {
-    font-size: var(--texte);
+    font-size: 30px;
     line-height: 1.4;
     color: var(--texte);
     text-align: center;
     width: 372px;
     margin-left: 28px;
     margin: auto;
+
 }
 
 .hero__description2{

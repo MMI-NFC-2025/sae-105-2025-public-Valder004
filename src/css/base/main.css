@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: ;
   font-size: var(--textes);
   line-height: 1.4;
   letter-spacing: -0.03rem;
@@ -433,4 +433,107 @@ textarea {
 .Galerie__titre{
   color: #FF9500;
   text-align: center;
+}
+
+
+.logement__titre{
+  color: #FF9500;
+  text-align: center;
+}
+
+.logement__description{
+  color: #884D00;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.logement__image{
+  display: flex;
+  margin: auto;
+  width: 373px;
+  height: 276px;  
+}
+
+.transport__titre{
+  color: #FF9500;
+  text-align: center;
+}
+
+.transport__texte{
+  color: #884D00;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.FAQ__titre{
+  color: #FF9500;
+  text-align: center;
+}
+
+.FAQ__question1{
+  color: #FF9500;
+margin-left: 25px;
+margin-right: 25px;
+font-size: 30px;
+margin-bottom: 0%;
+}
+
+.FAQ__réponse1{
+  color: #884D00;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+.FAQ__question2{
+   color: #FF9500;
+margin-left: 25px;
+margin-right: 25px;
+font-size: 30px;
+margin-bottom: 0%;
+}
+
+.FAQ__réponse2{
+  color: #884D00;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+.FAQ__question3{
+  color: #FF9500;
+margin-left: 25px;
+margin-right: 25px;
+font-size: 30px;
+margin-bottom: 0%;
+}
+
+.FAQ__réponse3{
+  color: #884D00;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+.coordonnées__titre{
+  margin-top: 50%;
+  margin-bottom: 0%;
+  color: #FF9500;
+  text-align: center;
+}
+
+.coordonnées__mail{
+  margin-top: 0%;
+  color: #884D00;
+  text-align: center;
+  font-size: 30px;
+}
+
+.coordonnées__téléphone{
+  color: #884D00;
+  text-align: center;
+  font-size: 30px;
 }
