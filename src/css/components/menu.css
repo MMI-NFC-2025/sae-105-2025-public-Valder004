@@ -35,3 +35,8 @@
     font-size: var(--texte-important);
     text-decoration: none;
 }
+
+.nav__link{
+    color: var(--texte-fond-secondaire);
+    text-decoration: none;
+}

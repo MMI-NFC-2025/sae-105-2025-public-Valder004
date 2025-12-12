@@ -3,10 +3,11 @@
     height: 118px;
     background-color: #ffc67d;
     display: flex;
-    position: absolute;
+    position: fixed;
     left: 0;
     align-items: center;
     justify-content: space-between;
+    
 }
 .header__icon{
     width: 112px;

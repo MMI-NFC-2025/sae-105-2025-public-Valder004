@@ -5,9 +5,6 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
-
-
-
 }
 
 .Footer__liste {
@@ -31,20 +28,23 @@
 }
 
 .Footer__réseaux {
-    display: flex;
-    gap: 20px;
-    width: 39px;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
 .Footer__réseaux img {
     width: 39px;
     height: 39px;
-    cursor: pointer;
-    align-items: center;
+
 }
 .Footer__icone {
     width: 150px;
     height: auto;
-    display: block;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
